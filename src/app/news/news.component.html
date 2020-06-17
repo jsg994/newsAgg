@@ -1,0 +1,9 @@
+<h1><u>World News</u></h1>
+<div *ngFor="let article of articles">
+    <h2><u>{{article.title}}</u></h2>
+  
+      <p>
+        {{article.description}}
+      </p>
+      <a href="{{article.url}}">Read full article</a>
+  </div>
